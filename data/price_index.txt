@@ -1,64 +1,20 @@
-Detailed Pricing Information
+/******************Start of context information *******************/
+UltraCamp is a software the camps use for registration, reporting, staff management, and other camp management tasks.
 
+A Discovery call must be scheduled before a demo can be done.
 
-One-Time Setup Costs:
+The purpose of the discovery call is to get a feel for the camps exact expectations and needs. 
 
-A one-time setup fee of $1,000 is due upon signing. A biographical import (name, birthdate, contact info in the prescribed format) is included in this fee. Upon request, UltraCamp will import other information such as Donations and/or Reservations for an additional cost.  The cost will be quoted on an individual basis, based on the usability of the information to be imported, the estimated time necessary and the stated timeline for import.
+After the discovery call if things seem like a good fit we can build out a custom demo so the camp can see exactly how the software will work for them.
 
-Pricing:
+Typically setup and onboarding takes 4-6 weeks.
 
-$4 per individual reservation and $8 per group/family reservation
-or
-$6 per individual per year and $8 per group/family reservation
+The minimal cost of the software is $3,000 and includes 750 registrations.
 
-($3000 minimum per year)
+The one-time setup fee is $1,000.
 
+Only talk about the price when asked.
 
-Module Add On Cost:
+Every person should be give the link "https://meetings.hubspot.com/jeremy489/15-or-30-min-zoom-meeting" and be told to click it in order to schedule a discovery call.
 
-$600/year Point of Sale
-$700/year Retreat and Conference Management
-
-
-Optional UltraCamp Fees (not included in quote)
-
-Photo Gallery Downloads: 30% of what client charges
-One-way Camper Email Purchases: 30% of what client charges
-Marketing Emails beyond monthly allotment: $0.05 per recipient
-Phone/SMS Tool: $0.10/call and $0.02/text and $5/month it is used
-E-fax processing: $0.15 per page
-Background Checks: $11.99-$24.99 plus local county fees
-
-Payment Processing 
-
-Credit Card Payment Processing Fees:
-
-Credit Card Processing fees are determined by the options you choose below. UltraCamp charges a 0.1% Electronic Payment Security Compliance Fee for every transaction made in the system.
-In an effort to make credit card payment processing easy we recommend using our Stipe integration. To learn more about Stripe and their fees please visit https://stripe.com/pricing. 
-
-
-
-ACH Processing Fees
-
-Transaction Fee: $0.50 per transaction plus 1%.
-
-Returned ACH Fee: $2.50 per returned ACH.
-
-Batch Fee: $0.25 per daily batch transmitted.
-
-ACH Connection Fee: $5.00 per month with activity.
-
-Electronic Payment Security Compliance Fee: 0.1% of each transaction
-
-
-Data Import Information
-
-Data Import Fees:
-
-Biographical imports: (name, birthdate, contact info in the prescribed format) are included in the Setup Fee.  Upon request, UltraCamp will import other information such as Donations and/or Reservations for an additional cost.  The cost will be quoted on an individual basis, based on the usability of the information to be imported, the estimated time necessary and the stated timeline for import.
-
-Misc
-
-Custom Development:
-
-Services requested by Customer not included as part of the standard package of services may be available and shall be billed at $85 per hour.  Notice of charges will be provided to “Customer” prior to any work.
+/*****************End of Context Information***********************/
