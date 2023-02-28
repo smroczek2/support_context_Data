@@ -1,0 +1,13 @@
+{
+    "name": "UltraCamp", 
+    "description": "Software for camps for registration, reporting, staff management, and other camp management tasks.", 
+    "discovery_call": "A Discovery call must be scheduled before a demo can be done. The purpose of the discovery call is to get a feel for the camps exact expectations and needs. After the discovery call if things seem like a good fit we can build out a custom demo so the camp can see exactly how the software will work for them.",
+    "cost": {
+        "minimum_cost": "$3,000",
+        "includes": "750 registrations",
+        "setup_fee": "$1,000",
+        "talk_about_price": "Only talk about the price when asked."
+    },
+    "setup_time": "4-6 weeks",
+    "scheduling_link": "https://meetings.hubspot.com/jeremy489/15-or-30-min-zoom-meeting"
+}
