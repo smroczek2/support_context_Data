@@ -1,11 +1,11 @@
-Topic: UltraCamp Pricing Information
-
 Keywords: pricing, cost, registration, setup fee, biographical import, donations, reservations, pricing calculator.
 
-UltraCamp Pricing -
-Minimal cost: $3,000/year for 750 registrations or 500 individuals depending on the type of plan they choose.
+Product: UltraCamp
+
+Base cost: $3,000 per year
+Includes 750 registrations annually
 One-time setup fee: $1,000
-Includes biographical import (name, birthdate, contact info in prescribed format)
-Additional import of Donations and/or Reservations available upon request
-Additional cost quoted on individual basis based on usability, time, and timeline for import
-Pricing calculator available on UltraCamp's website: https://ultracampmanagement.com/home/pricing/
+Setup fee includes biographical import which covers name, birthdate, and contact info in the prescribed format.
+Additional costs for importing other information such as donations and reservations upon request.
+The cost for importing other information will be quoted on an individual basis, based on the usability of the information, estimated time, and stated timeline for import.
+Pricing calculator link: https://ultracampmanagement.com/home/pricing/
