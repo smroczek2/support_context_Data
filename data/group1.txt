@@ -1,0 +1,1107 @@
+
+# A/R Aging
+Accounts Receivable Aging reports, or A/R Aging for short, is a useful report in finding what accounts are truly overdue in your system. While the Account Balances report can give you an overall look at the balances due for your entire database, it does not tell you if the balances are outstanding or due in the future. To access the A/R Aging report:
+
+
+1. 1. Click on the Reports menu
+	2. Go to the Financial section
+	3. Click on [A/R Aging](https://www.ultracamp.com/admin/Reports/ARAging.aspx)
+
+
+## 
+
+
+## Report Parameters
+
+
+By default the report will run for the current date, but you can use the As Of Date field to check aging for a particular date, such as the start of the year.
+
+
+## 
+
+
+## Report Output
+
+
+
+
+
+#### 
+
+
+#### Example Output of the A/R Aging Report
+
+
+**Report Fields**
+
+
+* Name: Displays the Primary Contact of the account. Clicking on the eye icon will allow you to Peek at Account to see basic information.
+* Account Balance: Displays the full Account Balance for the account.
+* Current: Displays balances that are due in the future.
+* 1-30 days: Displays balances that are 1-30 days overdue.
+* 31-60 days: Displays balances that are 31-60 days overdue.
+* 61-90 days: Displays balances that are 61-90 days overdue.
+* > 90 days: Displays balances that are over 90 days overdue.
+* Total Overdue: Adds up the balances from the 1-30 days column through the >90 days column to give the total overdue for the account.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+The A/R Aging report only reports balances for items that have a due date. If you have transactions such as a Misc Debit that are creating the balance, it will not show up on this report!
+
+
+
+ 
+
+
+## What determines overdue status?
+
+
+Sessions and Retreat reservations both have a Paid-in-Full due date field that determines when they are considered overdue. If a Paid-in-Full due date is not set, it will default to the start date of the event.
+
+
+ 
+
+
+
+
+
+*Example of the Paid-in-Full due date field in the Session Editing Wizard*
+
+
+ 
+
+
+For non-session fees such as donations and account fees, the due date is the same as the date of the item.
+
+
+
+
+
+*In this example, the due date of the donation would be 4/2/2021.*
+
+
+## 
+
+
+## Saving A/R Aging Report
+
+
+ A/R Aging report data can be: 
+
+
+* Saved to a **Stored Group**
+* Exported
+* Printed
+
+# Account Balances Report
+This report searches for accounts based on the overall account balance. By default, it looks at the current account balance, but that can be adjusted based on the Report Parameters.    
+
+
+1. 1. Click on the Reports menu
+	2. Go to the Financial section
+	3. Click on [Account Balances](https://www.ultracamp.com/admin/reports/accountbalances.aspx)
+	4. Select Balance Type
+	5. Optional Date Parameters
+	6. Click Search
+
+
+
+
+
+## 
+
+
+## Report Parameters Defined
+
+
+The **Balance Type** filter focuses the report on one of the following settings:
+
+
+* **Balance Due Accounts** are accounts which owe money to your organization
+* **Credit Due Accounts** are accounts that have a credit owed them
+* **Non '0' Balances** are all accounts where the balance is not zero--this includes Balance Due Accounts and Credit Due Accounts.
+* **'0' Balances**are accounts with no credit or balance.
+* **All Accounts** shows every account in your database along with its balance.
+
+
+ 
+
+
+By default, the Account Balances report shows current information. 
+
+
+* **As of:** By entering a date and/or time in the As of: (optional) field, you can report on account balances at a specific date and time in the past.
+* Use the With **Reservations Beginning:** (optional) filter to look for accounts that also have reservations during the time-frame you specify.
+
+
+
+#### 
+ Note
+
+
+This filter does NOT identify whether their reservation has a balance. It just verifies that account has a reservation in the specified time and fulfills the other selected Report Parameters.
+
+
+
+ 
+
+
+## Results
+
+
+The resulting list can be sorted by any particular column by clicking the column header at the top.
+
+
+* Clicking the **Eye Icon** next to the Account # will bring up current account information.
+* Clicking the actual Account number will take you out of the report and into that account.
+* Click the **Binoculars icon** to go directly to the **Finance Detail** of that account.
+
+
+## 
+
+
+## Saving Account Balances Reports
+
+
+ Account Balances report data can be: 
+
+
+* Saved to a **Stored Group**
+* Exported
+* Printed
+
+# Account Correspondence
+The Account Correspondence page contains a reviewable history of all logged correspondence to the current account. This includes emails sent to the account from within the system along with any other manually logged correspondence.
+
+
+To view the Account Correspondence: 
+
+
+1. 1. Open the desired account.
+	2. Click the **Current Account** **icon** at the top of the page.
+	3. In the resulting Current Account window, click the **Account Correspondence** **icon**.
+
+
+## 
+
+
+## Displaying Correspondence
+
+
+* UltraCamp defaults to displaying all correspondence in the current season.
+* You may change the display to a different season or All seasons using the dropdown on the left.
+* Each correspondence entry is listed along with the recorded Date, correspondence Type, the subject of the Content, and who the correspondence was Handled By.
+* Click the **Binoculars or View icon** to see the logged content of the correspondence.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+A logged email can be resent by viewing the logged correspondence and clicking the Resend icon. You can even resend it to a different address by editing the Resend To address.
+
+# Account Detail Page
+The account detail pages gives an overall view of a person, family or organization account, along with the ability to view, edit, report on various components within the account.
+
+
+To view an account: 
+
+
+1. 1. Click in the search
+	2. Enter the name or account number
+	3. Click on the magnifying glass or press enter/return
+
+
+
+
+
+ 
+
+
+
+## 
+
+
+## Primary Contact / Organization Information
+
+
+When communicating with the Primary Contact for an account, all contact information, login information, and organization information is viewable in one place. This information can be used to quickly generate emails and envelopes.    
+
+
+**To view or edit primary contact and organization information as well as Log In information:**
+
+
+1. 1. Navigate to the Account Detail page.
+	2. Locate the Primary Contact/ Organization Information  on the right.
+	3. Click the + sign or the bar to expand the menu.
+
+
+This menu displays the Primary Contact Information and allows you to do the following:
+
+
+* Edit the primary contact's biographical information.
+* View the primary address on google maps.
+* Address an envelope to the primary address.
+* Email the primary contact by clicking the email address itself.
+* The Organization Information is also displayed if applicable and can be edited here using the Edit icon.
+* This section also displays the Account Type.
+
+
+## 
+
+
+## Log In Information
+
+
+* In the Log In Information section, the Username is visible to administrators.
+* The Password is encrypted and not visible to anyone once created.
+* Both the username and password can be edited using the Edit icon in this section.
+* Additionally, you may send a password reset email using the Email Password Reset link. This email contains a link and instructions for resetting the password and is viable for 12 hours after the message is generated.
+* Clients can also trigger the Password Reset email from the login page on the public side.
+
+
+## 
+
+
+## Password Reset Email
+
+
+* The Password Reset Email is personalized for your organization as well as the client.
+* Below your logo and contact information, the Password reset message displays.
+
+
+## 
+
+
+## View Password Reset Email
+
+
+****
+
+
+ 
+
+
+## Account Members
+
+
+When an individual is created and added to an account, they appear in the Account Members list.    
+
+
+**To view the Account Members:**
+
+
+1. 1. Open an account.
+	2. Access the Account Detail page. You can also view account members through the peak function on most reports.
+	3. The Account Members menu lists all active individuals on an account.
+
+
+* Clicking the name of the account member will take you to their Person Detail page.
+* To the right of the Account Member's name will be listed any selected Roles, the individual's gender, and age if specified.
+
+
+ 
+
+
+**Shortcut icons are listed to the right of each name:**
+
+
+* The **Edit icon** is a shortcut to editing this individual's biographical information.
+* The **Print Summary icon** will bring up the pdf of the Individual Summary page for saving or printing.
+* The **Make a Reservation icon** will allow you to select a session and initiate the registration process on the admin side.
+
+
+New Account Members can be added using the **Add a person to this account** link or by clicking the button under **Common Tasks**.
+
+
+## 
+
+
+## Current Reservations
+
+
+The Current Reservations menu displays a list of any reservations for sessions whose End Date has not passed and offers admin access to current reservations.   
+
+
+* You can register an account member for a session using the **Make a New Reservation**.
+* In the listed reservation(s), clicking the **Binoculars or The** **View Icon** will redirect you to the Reservation Detail page.
+* Clicking the **Print icon** will bring up the PDF Confirmation for that reservation.
+
+
+## 
+
+
+## Previous Reservations
+
+
+ This menu displays a reservation history for this account.
+
+
+* Click the **This season** link to view reservations for the current season but whose End Date has passed.
+* Click the **Last Season** link to view reservations for the previous season and the All link to view all previous reservation for this account.
+* When displaying previous reservations, you can **View**the Reservation Detail page or **Print**the Confirmation PDF using the links provided.
+
+
+## 
+
+
+## Session / Activity Waiting List
+
+
+If anyone on this account is registered on the wait list for either Sessions or Activities, their waiting list details will display here. 
+
+
+* A Remove link allows you to manually remove the individual from the Waiting List.
+* You can use the waiting list reports in the Reports menu to adjust an individual's place on the wait list or even remove them entirely.
+
+
+ 
+
+
+## Incomplete Tasks
+
+
+* The Incomplete Tasks menu allows you to **Create a New Task**or **Add a Process** to the active account using the provided links. You can also view Incomplete Tasks in this menu.
+* Incomplete Tasks will be displayed along with the name of the individual or account to which the Task is attached, the assigned staff user (if applicable), and the Task due date.
+* You can also View the specifics of a particular Task by clicking the link to the right. This permits the editing and adjustment of this particular task.
+* A checkbox to the left of the Task can be checked. When this is done, click the Complete Selected Tasks link to mark this Task as Complete.
+* Completed tasks disappear from this menu.
+
+
+## 
+
+
+## Comments
+
+
+Comments are added and edited using the menu on the Account Detail page. Existing comments are viewable here until they expire.
+
+
+### Adding Comments
+
+
+1. 1. Clicking the Add Comment link will bring up the **Create a new Comment**.
+		* You will be prompted to select who or what This comment is for using the dropdown menu. Depending on your selection, you may be asked to indicate a specific individual or reservation.
+	2. In the Comment field, enter the appropriate text.
+		* By default, comment text is not Visible by the Public as indicated by the checkbox. If you check this box, however, clients will be able to view the comment when they access their account.
+	3. A comment remains recorded in the system unless manually deleted. However, a comment can be hidden after a set Expiration Date. There are three Expiration Date setting options:
+		* A comment with **No Expiration** remains visible on the account indefinitely.
+		* A comment set to expire at the **End of the current season** will no longer display after the date indicated as the **Season End Date**.
+		* A comment can also be set to no longer display after a **Custom Date** as set with the text field and/or the calendar picker.
+
+
+## 
+
+
+## Editing Comments
+
+
+* Once a comment has been created, you can edit it using the link in the Comment menu. When editing, you may change the comment text, public visibility, and its expiration date. However, the Creation Date, who it was Created By, and how the comment is attached may not be adjusted.
+* A comment can be deleted using the button at the bottom of the page.
+* Comments, both active and expired, can be reported on using the Comments report.
+* Reporting differs slightly based on how you attach a comment. Attaching session-related comments to Sessions will make reporting on that type of comment easier.
+
+
+ 
+
+
+## Alternate Contacts
+
+
+* Alternate Contacts can be added or edited using the link in the Alternate Contacts menu.
+* Alternate Contacts who have been added will be displayed here along with their contact information.
+* You can turn on and off the collection of Alternate Contact Information as well as determine what information is required in the [My Settings Wizard.](https://www.ultracamp.com/Admin/Wizards/setup/secondarycontact.aspx)
+
+
+ 
+
+
+## Authorized Pickups
+
+
+* Authorized Pickups will be listed in this menu on the Account Detail page. By clicking the Edit link, you can add or remove Authorized Pickups.
+* Authorized Pickups can be either Account Members or Non-account Members.
+
+
+## 
+
+
+## Friend Accounts
+
+
+* Friend Accounts can allow other database accounts to send One-Way emails to campers registered for this account and/or view photos from this account's session.
+* Using the **Edit** link in the **Friend Accounts** menu, you can modify existing friend accounts. The connecting passphrase and permissions can be changed, and the connection can be removed as well.
+* Friend Accounts are initiated on the public side by the Primary Contact. The Primary Contact creates a code, determines permissions level, and sends an invitation to create a Friend Account.
+* When the recipient of the invitation opens the email, they are prompted to log in or create an account. At this point, they can click the link in the email to connect the two accounts as friend accounts.
+
+
+## 
+
+
+## Custom Account Questions
+
+
+* Custom Account Questions are asked when an account is created and are connected on an Account level. The client is not prompted to update or answer the questions after this.
+* Account Custom questions along with their answers can be viewed and modified using the **Edit** link.
+
+
+## 
+
+
+## Form Excerpts
+
+
+* Form Excerpts can display the form name, question, and answer on the Account Detail as well other pages on the account.
+* Click the View link to access the Online Form itself. Answers can be modified or updated here.
+* Form Excerpts are created in the Settings menu.
+
+ # Account Roles
+There are two critical Account Roles in UltraCamp:
+
+
+* **Primary Contact**
+* **Secondary Contact**
+
+
+Additional roles can be added, but they will only find function in reporting and identification and are therefore optional.
+
+
+The **Primary Contact** is considered the main account holder. Their contact information will be the default for the account, and all account correspondence will be directed to their information. Their name will display as the signature on all electronically signed forms. They will automatically be listed as an authorized pickup.
+
+
+The **Secondary Contact** can be cc'd on all account correspondence and can be listed as an authorized pickup, but these must be opted into. Your organization may allow the Secondary Contact to reset the account login information, but this is optional.
+
+
+ 
+
+
+## Optional Account Roles
+
+
+Some organizations find additional labels useful. For example, the labels "parent" or "guardian" might clarify who the Primary Contact is in relation to the children on the account. When adding additional Account Roles, consider whether this role should be select-able only by Adults or only by Children. Here are some example optional Account Roles:
+
+
+* Parent - should be visible only to Adults on the account
+* Sibling of Child with Diagnosis - typically only visible to Children on the account
+* Alumni - typically visible to Everyone
+
+
+ 
+
+
+## Managing Account Roles
+
+
+1. 1. To edit or add Account Roles, go to the [Settings menu](https://www.ultracamp.com/admin/wizards/setup/default.aspx)
+	2. Expand [System / Management](https://www.ultracamp.com/admin/wizards/setup/default.aspx) and [select My Settings](https://www.ultracamp.com/admin/wizards/setup/default.aspx).
+	3. In the wizard, proceed to the **About My Clients** section.
+	4. The [Account Creation?](https://www.ultracamp.com/Admin/Wizards/setup/accountcreation.aspx) and [Account Roles](https://www.ultracamp.com/Admin/Wizards/setup/roles.aspx) pages are both places to adjust the account roles and permissions.
+
+
+
+# Account Tools
+## Make Account Inactive
+
+
+* An inactive account is no longer accessible to the client and does not display in standard reporting.
+* You can make an account inactive using the appropriate Account Tools.
+* Once an account is inactive, the Primary Contact may no longer log into the account, and standard reports will not display the account unless specifically told to display inactive accounts. Administrators can still access the account, although the Open Account function will not return any inactive accounts.
+* An inactive account can be reactivated using the link in the alert at the top of the Account Detail page for the inactive account.
+
+
+
+#### 
+ Tip
+
+
+Making an account inactive is usually preferable to deleting the account. An inactive account retains all important historical and financial data, keeping your records clean and intact.
+
+
+
+ 
+
+
+## Delete Account
+
+
+* When an account is deleted from the database, all record of any activity within that account is permanently removed.
+* Safety features in UltraCamp prevent administrators from deleting an account if there are any financial records or a reservation history.
+* A Delete Account link may appear if there is no reservation or financial history on an account. Selecting this link will trigger a warning prompt since the deletion of this account is permanent and all correspondence and biographical information will be wiped completely from the database. Proceed through the prompt to delete the account.
+
+
+
+#### 
+ Tip
+
+
+Often it is better to make an account Inactive, rather than delete it. An inactive account is still stored in the database but is inaccessible to the client while preventing the client from using the same email address to create a new account. Additionally, it is not displayed in most reports.
+
+
+
+ 
+
+
+## Merge another account with this account
+
+
+Two or more accounts can be merged into a single account, preserving historical, reservation, and financial information. No data is deleted when two accounts are merged (except the login information on the account that is not kept). An account merge cannot be undone.    
+
+
+**Open the account you wish to keep:**
+
+
+1. 1. On the Account Detail page
+	2. Expand the Account Tools menu on the right
+	3. Click on **Merge another account with this account**
+
+
+  
+  
+
+
+
+* Within the Merge Accounts tool, you can elect to have UltraCamp automatically search for accounts that appear similar to this account or set up your own search using an Account Number, Last Name, and/or First Name. Click the Search button to initiate the search.
+* Any accounts that match your search criteria will display in a list, along with the Account Members, contact information, and Account Creation Date. Select the account you would like to merge into the current account using the radio button on the left, and click the Next button.
+* UltraCamp will provide an overview of the two merged accounts. The Account to Keep is the current account and will retain its login information. The Account to Delete will have all its historical data merged into the current account. Its login information will be removed along with the old Account Number.
+* UltraCamp can attempt to merge individuals in these two accounts who have the same first and last name. This prevents duplicates of individuals from being created on the same account. However, if a parent and child share the same name, this action can have the added consequence of merging the parent and the child as well so this feature should be used with caution. Unchecking this box will prevent UltraCamp from running this process during the merge and preserve every account member from each account.
+
+
+1. 4. Use the **Merge Accounts** button to initiate the merge. A warning will pop up. Proceed through this warning to complete the merge.
+
+
+
+#### 
+ Tip
+
+
+An Account Merge cannot be undone. It's good to double check your information before merging two or more accounts.
+
+
+
+ 
+
+
+## Merge two individuals within this account
+
+
+One or more individual account members can be merged into a single account member. This is useful when duplicates are created either by the client or when merging multiple accounts. 
+
+
+
+#### 
+ Note
+
+
+Merging two individuals cannot be undone. It's good to double check the person ID to make sure you are keeping the right person. The person ID is displayed on the Person Detail page in the Bio / Contact information menu.
+
+
+
+ 
+
+
+**To merge individuals within the account:**
+
+
+1. 1. Go to the Account Detail page of the account with duplicate individuals.
+	2. Find the Account Tools menu on the right and expand it.
+	3. Click the link to Merge two individuals within this account
+
+
+* + UltraCamp will prompt you to select an Account Member to merge. This individual will have their biographical data, including person custom question data, deleted and replaced by the individual you select as the person to be kept.
+	+ All reservation and custom online form data from both individuals will be kept.
+
+
+1. 4. Click the **Merge People** button and proceed through the warning to complete the merge.
+ 
+
+# ACH Processing in UltraCamp
+UltraCamp operates as an ACH Originator and can facilitate electronic payments and refunds for your customers. The ACH system allows you to transfer money between bank accounts, rather than going through the payment card networks (Visa/Mastercard, Discover, or American Express). UltraCamp operates under the rules of NACHA (National Automated Clearing House Association), which is the administrator and governor of the ACH Network.
+
+
+## How Payments are Made by your Customers
+
+
+Customers can add bank account information to their account from the payment page. The page requires the Account Type, Name on Account, Bank Routing Number, and Bank Account Number. It also includes an Authorization for your organization and “UltraCamp LLC” to electronically debit their account for fees incurred. This authorization is encrypted and stored in UltraCamp and will remain in effect until such authorization is revoked by the account holder. The maximum per-transaction dollar limit is $1,000,000.
+
+
+ACH transactions are not real-time but are batched every morning for the previous day’s entries. ACH entries are irrevocable once they have been sent for processing and can only be voided in the short time period before they are batched.
+
+
+## Prenotes for Account Validation
+
+
+Any time a customer adds a new unique bank account to their account, it triggers the creation of a Prenote. A Prenote is a zero-dollar entry that is used to verify the bank account information of your customer. By NACHA rule, there is a 3-day waiting period after submitting a Prenote before a live transaction can be sent.
+
+
+## Settlement Process
+
+
+Customer payments take 3-4 business days to settle into the UltraCamp ParentPay holding account. Once we receive the batch, we create a new batch to send the funds to your designated bank account. This process takes an additional 3-4 business days to settle.
+
+
+Customer refunds take the same amount of time and go from your account to the UltraCamp ParentPay account then to the customer account.
+
+
+
+
+|  |  |
+| --- | --- |
+| ACH Process | Days |
+| Prenote | 3 |
+| Parent to UltraCamp ParentPay | 3 to 4 |
+| UltraCamp ParentPay to Camp | 3 to 4 |
+| Possible Processing Time | 6 to 11 business days |
+
+
+ 
+
+
+## ACH Returns
+
+
+ACH transactions can be returned for several reasons:
+
+
+* Insufficient funds
+* Bank account closed
+* No bank account/unable to locate account
+* Invalid bank account number
+* Payment stopped
+
+
+Returns will automatically create a “Returned ACH” transaction in the customer financial detail reversing the payment attempted. UltraCamp can also add a “Returned ACH Fee” with a penalty amount based on the type of return. You will be charged the ACH Return Fee regardless of the type of return.
+
+
+## ACH Processing Fees
+
+
+
+
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 
+
+|  |  |
+| --- | --- |
+| Fee Type | Fee Amount |
+| Transaction Fee | $0.50 |
+| Transaction Discount Rate | 1.00% |
+| ACH Batch Fee | $0.25 |
+| ACH Return Fee | $2.50 |
+| ACH Monthly Fee (when used) | $5.00 |
+| Electronic Payment Compliance Fee | 0.10% |
+
+ |   |
+
+
+ 
+# Activities
+Activities are used to offer your registrants the opportunity to create their own schedule for a given session. This help session explains how to create and set up Activities.  
+  
+
+
+
+This video provides a quick overview of how activities work for in the registration process as well as how they are created and set up.
+
+
+
+ 
+
+
+## Activity Template Setup
+
+
+The basic building block of Activity setup is the Activity Template. This video shows how to create and edit Activity Templates (also called Activity Masters).
+
+
+**To create an Activity Template:**
+
+
+1. 1. Click on **Settings.**
+	2. Expand **Activity Templates.**
+	3. Select **Activity Templates.**
+	4. **Create a** **New Activity Template** or edit an existing one by clicking on the edit icon.
+
+
+
+ 
+
+
+## Activity Categories
+
+
+Activity Categories are an optional setting. They can be used for the visual organization of Activities as well as placing limits on how many activities from a specific category can be chosen in a given Activity Group.
+
+
+**To create an Activity Category:**
+
+
+1. 1. Click on **Settings.**
+	2. Expand **Activity Templates.**
+	3. Select **Activity Categories.**
+	4. **Create a New Activity Category** or edit an existing **Activity Categories** by clicking on the edit icon.
+
+
+
+ 
+
+
+## Activity Groups
+
+
+To create a schedule for registrants, an Activity Group must be created. This video shows how to create an Activity Group and add Activity Templates to it.
+
+
+**To create an Activity Group:**
+
+
+1. 1. Click on **Scheduling.**
+	2. Expand **Activities.**
+	3. Select **Activity Groups** to open the **Activity Group Editor.**
+
+
+
+ 
+
+
+## Schedule an Activity Group
+
+
+Once an Activity Group has been created, it must be connected to one (or more) sessions in order for clients to be able to create their schedule. This video shows how to create that connection in the Session Editing Wizard.
+
+
+**To Schedule an Activity Group:**
+
+
+1. 1. Click on **View Summary of Sessions** or click on the **My Sessions** link.
+	2. Select the session from the list by clicking on the edit icon to open the **Session** **Editing Wizard.**
+	3. Expand **Additional Information** menu on the left.
+	4. Click on **Activities.**
+
+
+# Add a Donation to an Account
+While donations can be made on the public side, admins can also record donations in UltraCamp for reporting and financial tracking accuracy.  
+
+
+**There are two ways to navigate to adding donations:** 
+
+
+**Option A: Financial History**
+
+
+1. 1. Open the desired account
+	2. Click **View Financial History**
+	3. Expand the **Additional Actions** menu on the right
+	4. Click **Add a Donation**
+
+
+**Option B: Donor History**
+
+
+1. 1. Open the desired account
+	2. Click **View Donor History** under Common Tasks
+	3. Click **Make / Record a Donation**
+2. 
+
+
+## **1569952553956-Nav_AddDonations.gif**
+
+
+## 
+
+
+## **Add a Donation**
+
+
+To add a Donation, take the following steps:
+
+
+1. 1. Select a donation amount or enter a custom donation amount  
+	
+		* If the selected donation allows Comments, you can record them here as well.
+	2. [Optional] Check the box to make this a recurring donation
+	3. Indicate the **Recorded Date of Donation** (leaving this field blank defaults to today's date).
+	4. Click the **Add Donations** button
+	5. Complete the Checkout process
+		* Click the button to **Review items in my cart and checkout >>**
+		* [Optional] Check or uncheck the box to
+		* Save without payment or proceed to payment to save the discount on the account.
+
+
+When checkout is complete, the donation will be added to the account and a **donation receipt** will be sent to the donor in both an email and account message.
+
+
+Once a donation has been added, it will show in the **Other Fees** section of the Finance Detail on the account.   
+
+
+# Add and Edit Data Fields
+Data fields are a required element in building a custom report. Data fields determine what information is pulled from the tables in your database and which columns will appear in the spreadsheet you view when you run the report.
+
+
+1. 1. Go to the **Reports menu**.
+	2. Expand **Custom Reports**.
+	3. Click on **Create a Custom** **Report**.
+	4. Select Data Fields.
+		* Data Fields are grouped in categories.
+		* Each category is indicated by a gray bar.
+	5. Click the triangle to the left of the category name to expand it.
+	6. Check the box next to the desired field or fields you would like added to your report.
+		* Once a field has been selected, it will be highlighted.
+		* You can select more than one field in more than one category at the same time.
+		* If you check the box to the left of the category name, all data fields in that category will be automatically selected.
+		* Uncheck the box to deselect everything in that category.
+	7. To add selected Data Fields click on the highlighted Data Field name and drag it to the workspace area to the right.
+
+
+* + - You can rearrange the order of Data Fields by clicking and dragging the blocks in the workspace.
+
+
+
+#### 
+ Note
+
+
+If the drag and drop feature is not responding, check your browser. Google Chrome has known issues with this, try using FireFox or Safari.
+
+
+
+
+ 
+
+
+## Editing Data Fields
+
+
+Once Data Fields are added to a report, they can be edited to fulfill specific display or function needs. It should be noted that this is considered an advanced process, and it is not unusual to trigger errors when editing data fields. As a precautionary measure, we recommend saving your progress often.
+
+
+1. 1. To edit a Data Field, first click the **Edit link** to the right of the desired Data Field.
+	2. In the resulting **Field Editor**, you can change the column header or adjust the function of the field itself using the Construction Workspace.
+
+
+### Changing the Column Name
+
+
+1. 1. To edit or adjust the column header, use the Column Name field.
+	2. Click the Complete button at the bottom of the Field Editor to save your changes.
+
+
+### Changing Data Field Function
+
+
+1. 1. In the **Field Editor**, change the function of the selected Data Field by dragging new Data Fields, Set Values, or Functions to the Construction Workspace in the middle of the Field Editor window.
+	2. Remove items from the Construction Workspace by right clicking on them and selecting Remove from the dropdown menu.
+
+
+### Adding Data Fields
+
+
+1. 1. To display additional information in this Data Field, drag a new data field from the Data Fields section.
+	2. Expand the Data Field Category by clicking the arrow to the left of the category.
+	3. Click on the desired Data Field and drag it on top of the the **Drag Items Here** text in the Construction Workspace.
+
+
+* The new data field will display below the original Data Field with a '+' symbol connecting them.
+* You can repeat this process to add multiple data fields into the original Data Field, displaying all information in a single column in your report.
+* You can rearrange the order of display by dragging and dropping fields and symbols but each Data Field must be connected to another by a symbol.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+UltraCamp will display all data fields adjacent to one another. To increase legibility, it's a good idea to combine multiple data fields with a the Set Value of a comma or space in between.
+
+
+
+## 
+
+
+## Adding Functions and Aggregates
+
+
+Functions change the behavior of the Data Field.
+
+
+1. 1. Drag the function from the **Functions or Aggregates** section (on the right in the Field Editor) onto the **Drag Items Here** text at the top of the Construction Workspace.
+	2. Most Functions and Aggregates have a Parameter which will appear when the item is added to the Construction Workspace. You will need to define these Parameters by dragging a Data Field or Set Value on top of them.
+	3. When finished, click the **Complete** button to save changes.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+Call our toll free Support line for help with editing Data Fields.This is one the most technical and complex aspects of our system, and even our support team members often confer directly with the programmers on building custom reports that require edited or custom Data Fields.  
+  
+You can reach our team members at **888-791-2080** and dial 3 for technical support. We are happy to help.
+
+
+
+ 
+
+
+## Adding Set Values
+
+
+Sometimes a function or field requires a set value. To add this value to your customized Data Field:
+
+
+1. 1. Enter the value in the Set Value field and click the **Add button**. This will add the value along with a **'+'** to the Construction Workspace.
+	2. Click an item in the Construction Workspace to add the value to that item.
+	3. Once added, the Set Value can be dragged and dropped in the desired position.
+
+
+# Add, Edit, or Enter Medications
+In order for medication information to be tracked in the system, it must first be added. Often, this is done during the registration process. Outside the registration process, medications can still be added or edited via the Person Detail page.    
+
+
+**To add or edit medications:**
+
+
+1. 1. Open the desired account.
+	2. On the Account Detail page, click on the appropriate individual's name under Account Members.
+	3. In the Medications menu on the right, click the **View / Edit** link.
+
+
+## 
+
+
+
+ 
+
+
+## Adding a New Medication
+
+
+1. 1. Enter the **Medication Name**in the field provided.
+		* Based on what you begin typing, UltraCamp will suggest medication names from a list of FDA approved medications.
+	2. You may select from this list or enter a different med name.
+	3. Select the **Route**for medication administration from the dropdown menu.
+	4. In the **Schedule / Dosage**section, use the Select Schedule dropdown menu to indicate when the med should be administered and what the dosage should be.
+		* Up to five different administration times / dosages can be indicated.
+		* You may also add any Reason for Medication / Comments in the field provided.
+	5. Click the **Save Medication** This will record the medication in the system, and it will display under Current Medications below.
+	6. When you have finished entering medication information, click the Save and Proceed button.
+		* This will return you to the Person Detail page (or move you to the next page in the registration process if you are making a reservation).
+
+
+## 
+
+
+## Editing an Existing Medication
+
+
+Once a medication has been added, it will display in the Medications menu. 
+
+
+1. 1. Click the View / Edit link
+	2. Scroll down to the Current Medications section.
+		* Here you can click the Edit link to the right of the desired medication to change its information.
+	3. Record your changes in the database using one of the "**Save**" buttons at the bottom.
+	4. You may use the **Delete** button to disable the medication. This hides the medication information from view.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+"Deleted" medications can still be reported on in the Medications roster.
+
+
+
+ 
+
+
+## How a Client Enters Medications
+
+
+It can be helpful to see what a client sees when entering medication. Here we will review the function and layout of the public page for adding and editing medication. Most clients will add medications as part of their initial registration process.
+
+
+To see the medications page from the public point of view, you also may make a reservation, but there is a short cut to the Medications page itself. 
+
+
+**Use the following steps to go directly to the Medications page:**
+
+
+1. 1. Access an account (like the Test account).
+	2. Click the Public View icon in the upper right. This will take you to the public side.
+	3. Click on an account member's name. This will take you to the Person Detail.
+	4. Use the **Manage Medications** button under Common Tasks OR in the expandable menus on the right, locate the **Medications menu** and expand it.
+	5. Click the **Manage Medications** link to be redirected to the appropriate page.
+
+
+Clients can also follow these steps to add or edit medications outside the registration process.
+
+
+ 
+
+
+
+
+
+ 
+
+
+## Adding a New Medication
+
+
+* **Medication Name:** To add a new medication, the Medication Name must be entered along with the Dosage.
+* **Route:** Select the Route for medication administration from the dropdown menu.
+* **Schedule/Dosage:** In the Schedule section, indicate the time of day as well as the days of the week when the medicine should be administered. You can also indicate different dosages and specific times as necessary.
+* **Reason for Medication:** You may also add any Reason for Medication / Comments in the field provided.
+* **Save Medication:**When you have added the appropriate information, save your changes by clicking the Save Medication button. This will record the medication in the system, and it will display under Current Medications below.
+* **Save and Proceed:**When you have finished entering medication information, click the Save and Proceed. This will return you to the Person Detail page.
+
+
+## 
+
+
+## Editing an Existing Medication
+
+
+Once a medication has been added, it will display in the Medications menu. 
+
+
+1. 1. Click **Manage Medications**link.
+	2. Scroll down to the **Current Medications**.
+	3. Click the Edit link to the right of the desired medication to change its information via the popup window.
+
+
+You can save or delete the medication using the buttons at the bottom of the popup window.
+
+
+ 
+
+
+
+#### 
+ Tip
+
+
+When a client deletes a medication, it is disabled and hidden in their record but not wiped away completely. You can report on deleted medications in the Medications Roster.
+
