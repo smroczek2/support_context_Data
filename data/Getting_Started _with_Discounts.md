@@ -18,7 +18,8 @@ Discounts are attached to a session and reduce the overall cost of that session.
 
 There are two parts of setup for most discounts:
 
-1. Create a Discount Template.Schedule (or add) the Discount to one or more sessions.
+1. Create a Discount Template.
+2. Schedule (or add) the Discount to one or more sessions.
 
 Membership and Paid-in-Full Discounts do not need a template.
 
